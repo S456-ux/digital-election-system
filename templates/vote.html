@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #222;
+            color: white;
+            text-align: center;
+        }
+        .box {
+            background: #333;
+            padding: 20px;
+            width: 300px;
+            margin: 100px auto;
+            border-radius: 10px;
+        }
+        button {
+            padding: 10px;
+            background: orange;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Vote Now</h2>
+        <form method="POST">
+            <input type="radio" name="candidate" value="A"> Candidate A<br><br>
+            <input type="radio" name="candidate" value="B"> Candidate B<br><br>
+            <button type="submit">Submit Vote</button>
+        </form>
+        <br>
+        <a href="/logout" style="color:red;">Logout</a>
+    </div>
+</body>
+</html>
