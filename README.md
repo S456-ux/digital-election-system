@@ -109,6 +109,9 @@ Sample Output
 8. View Audit Logs
 9. Exit
 
+
+
+
 Enter choice: 1
 Officer ID: admin
 Password: admin123
